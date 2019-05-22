@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Review Assignment
+   
+   Author:   Austin Short 
+   Date:     03/03/2019
+   
+      
+   Filename: tf_styles4.css
+
+   This file contains the screen styles used with the Trusted
+   Friends blog tips
+
+*/
+
+
+/* Import Basic Design Styles Used on All Screens */
+
+@import url("tf_designs.css");
+
+
+
+/* General Flex Styles */
+body{
+
+display: -webkit-box; 
+display: -moz-box; 
+display: -ms-flexbox; 
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+section#left{
+flex-basis: 130px; 
+flex-shrink: 8; 
+flex-grow: 1;
+
+}
+
+section#right{
+flex-basis: 351px; 
+flex-grow: 8; 
+flex-shrink: 1;
+}
+
+section.tips{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+section.tips article {
+   flex-grow: 1;
+   flex-shrink: 2;
+   flex-basis: 250px;
+}
+
+body > header > nav.horizontal > ul{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap; 
+}
+
+
+
+/* ===============================
+	Mobile Devices: 0 to 480px 
+   ===============================
+*/
+	
+@media only screen and (max-width: 480px) {
+
+nav.vertical > ul{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 240px; 
+}
+
+section#left{
+   order: 99;
+}
+
+body > footer {
+   order: 100; 
+}
+a#navicon {
+   display: block; 
+}
+
+nav.horizontal ul{
+   display: none;
+}
+
+a#navicon:hover+ul, nav.horizontal ul:hover {
+   display: block;
+}
+
+}
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+
+
+
+@media only screen and (min-width: 481px){
+
+nav.horizontal ul{ 
+   size: 160px; 
+   }
+
+
+}

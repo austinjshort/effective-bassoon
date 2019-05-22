@@ -1,0 +1,26 @@
+1. Use your editor to open the pc_specials_txt.html and pc_specials_txt.css files from the html03 c review folder. Enter your name and the date in the comment section of each file, and save them as pc_specials.html and pc_specials.css respectively. 2. Go to the pc_specials.html file in your editor. Within the document head, create links to the pc_reset2.css, pc_styles4.css, and pc_specials.css style sheets.
+
+Carey, Patrick M.. New Perspectives on HTML5, CSS3, and JavaScript (Page HTML 247). Cengage Learning. Kindle Edition. 
+Take some time to study the content and structure of the document, paying careful attention to the use of ids and class names in the file. Save your changes to the file.
+ Go to the pc_specials.css file in your editor. Within the Page Body Styles section, add a style rule for the body element that sets the width of the page body to 95% of the browser window width within the range 640 pixels to 960 pixels. Horizontally center the page body within the window by setting the left and right margins to auto. 
+ Go to the Image Styles section and create a style rule that displays all img elements as blocks with a width of 100%. 
+
+ Anne wants the navigation list to be displayed horizontally on the page. Go to the Horizontal Navigation Styles section and create a style rule for every list item within a horizontal navigation list that displays the list item as a block floated on the left margin with a width of 16.66%. 
+
+ Display every hypertext link nested within a navigation list item as a block. 8. Next, you’ll create the style rules for the grid section of the March Specials page. Go to the Row Styles section. For every div element of the newRow class, create a style rule that displays the element with a width of 100% and only when all floated elements have been cleared. Using the technique from this tutorial, add another style rule that uses the after pseudo-element to expand each newRow class of the div element around its floating columns. 
+
+ Next, you’ll format the grid columns. Go to the Column Styles section. Create a style rule to float all div elements whose class value starts with “col-” on the left margin. Set the padding around all such elements to 2%. Finally, apply the Border Box Sizing model to the content of those elements. (Note: Remember to use web extensions to provide support for older browsers.) 
+
+ In the same section, create style rules for div elements with class names col-1-1, col-1-2, col-1-3, col-2-3, col-1-4, and col-3-4 to set their widths to 100%, 50%, 33.33%, 66.67%, 25%, and 75% respectively. 
+
+ Go to the Specials Styles section. In this section, you will create styles for the monthly specials advertised by the company. Create a style rule for all div elements of the specials class that sets the minimum height to 400 pixels and adds a 1 pixel dashed outline around the element with a color value of rgb(71, 52, 29). 
+
+ Go to the Award Styles section. In this section, you will create styles for the list of awards won by Pandaisia Chocolates. Information boxes for the awards are placed within the div element with id awardList. Create a style rule for this element that places it using relative positioning, sets its height to 650 pixels, and automatically displays scrollbars for any overflow content. 
+
+ Every information box in the awardList element is stored in a div element belonging to the awards class. Create a style rule that places these elements with absolute positioning and sets their width to 30%. 
+
+ Position the individual awards within the awardList box by creating style rules for the div elements with id values ranging from award1 to award5 at the following (top, left) coordinates: award1 (80px, 5%), award2 (280px, 60%), award3 (400px, 20%), award4 (630px, 45%), and award5 (750px, 5%). (Hint: In the pc_specials.html file, the five awards have been placed in a div element belonging to the awards class with id values ranging from award1 to award5.) 
+
+ Go to the Footer Styles section and create a style rule for the body footer that displays the footer once both margins are clear of previously floated elements. 16. Save your changes to the style sheet and then open the pc_specials.html file in your browser. Verify that the layout and design styles resemble the page shown in Figure 3-65.
+
+Carey, Patrick M.. New Perspectives on HTML5, CSS3, and JavaScript (Page HTML 248). Cengage Learning. Kindle Edition. 
